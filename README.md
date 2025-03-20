@@ -37,7 +37,7 @@ PostCSS
 Sort CSS Media Queries
 ```
 
-Проєкт доступний онлайн за посиланням: https://github.com/MelVikt/home-work-33
+Проєкт доступний онлайн за посиланням: https://github.com/MelVikt/home-work-33 та https://melvikt.github.io/home-work-33/
 
 ### 3. Переконайтеся, що ваші файли Gulp налаштовані коректно
 `gulpfile.js`, після запуску `npm run dev` (що відповідає команді `gulp watch`), Gulp автоматично компілює файли Sass, мініфікує CSS та оновлює браузер за допомогою BrowserSync.
