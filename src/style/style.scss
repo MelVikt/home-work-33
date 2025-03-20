@@ -1,0 +1,31 @@
+$primary-color: #bfff00;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $primary-color;
+  color: black;
+}
+
+.container {
+  max-width: 1200px;
+  background-color: #64723a;
+  font-size: 40px;
+  padding: 20px
+}
+
+.my-box { 
+  transition: all 0.3s ease;   
+}
+// Desktop-First in style.css and min
+@media screen and (max-width: 768px) {
+  .container {
+    font-size: 18px;
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    font-size: 20px;
+  }
+}

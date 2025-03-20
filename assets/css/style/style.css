@@ -1,0 +1,41 @@
+body
+{
+    font-family: Arial, sans-serif;
+
+    color: black;
+    background-color: #bfff00;
+}
+
+.container
+{
+    font-size: 40px;
+
+    max-width: 1200px;
+    padding: 20px;
+
+    background-color: #64723a;
+}
+
+.my-box
+{
+    -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .container
+    {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .container
+    {
+        font-size: 18px;
+
+        background-color: red;
+    }
+}
